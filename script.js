@@ -33,7 +33,7 @@ document.querySelector('#quote-form')?.addEventListener('submit', (event) => {
   event.preventDefault();
   const data = new FormData(event.currentTarget);
   const message = [
-    'Hola, vengo de la página de Punto Nexo.',
+    'Hola, vengo de la página de Punto Nexu.',
     `Mi nombre es ${data.get('name')}.`,
     `Mi negocio: ${data.get('business')}.`,
     `Necesito: ${data.get('need')}.`,
