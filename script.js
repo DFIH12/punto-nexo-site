@@ -22,7 +22,7 @@ document.querySelectorAll('[data-plan]').forEach((link) => {
     const planInput = document.querySelector('[name="plan"]');
     const plan = link.dataset.plan;
     const option = [...select.options].find((item) => item.textContent.includes(
-      plan === 'Nexo Básico' ? 'presentar' : plan === 'Nexo Profesional' ? 'catálogo' : 'más completo'
+      plan === 'Nexu Básico' ? 'presentar' : plan === 'Nexu Profesional' ? 'catálogo' : 'más completo'
     ));
     if (option) select.value = option.value;
     if (planInput) planInput.value = plan;

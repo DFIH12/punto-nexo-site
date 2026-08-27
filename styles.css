@@ -57,7 +57,7 @@ h1 span { color: var(--blue); }
 .audience-note { max-width: 620px; margin: 18px 0 0; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 12px; }
 .audience-note strong { color: var(--ink); }
 
-.nexo-demo { min-height: 500px; position: relative; border: 1px solid var(--line); background: linear-gradient(var(--paper) 1px, transparent 1px), linear-gradient(90deg, var(--paper) 1px, transparent 1px), var(--mint); background-size: 34px 34px; }
+.nexu-demo { min-height: 500px; position: relative; border: 1px solid var(--line); background: linear-gradient(var(--paper) 1px, transparent 1px), linear-gradient(90deg, var(--paper) 1px, transparent 1px), var(--mint); background-size: 34px 34px; }
 .demo-screen { position: absolute; width: 76%; top: 70px; left: 50%; transform: translateX(-50%) rotate(-2deg); background: white; border: 2px solid var(--ink); box-shadow: 12px 12px 0 var(--blue); }
 .screen-bar { height: 38px; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 6px; padding: 0 13px; }
 .screen-bar b { width: 7px; height: 7px; border-radius: 50%; background: var(--line); }
@@ -198,7 +198,7 @@ footer small { grid-column: 1 / -1; margin-top: 35px; padding-top: 18px; border-
   nav.open { display: grid; }
   .nav-cta { text-align: center; }
   .hero { min-height: 0; grid-template-columns: 1fr; padding: 60px 20px; gap: 56px; }
-  .nexo-demo { min-height: 440px; }
+  .nexu-demo { min-height: 440px; }
   .message-card { right: 12px; }
   .signal-strip { padding: 20px; flex-direction: column; gap: 8px; }
   .section { padding: 84px 20px; }
@@ -225,7 +225,7 @@ footer small { grid-column: 1 / -1; margin-top: 35px; padding-top: 18px; border-
   .hero-actions { align-items: stretch; flex-direction: column; }
   .text-link { text-align: center; }
   .hero-notes { display: grid; }
-  .nexo-demo { min-height: 360px; }
+  .nexu-demo { min-height: 360px; }
   .demo-screen { width: 88%; top: 52px; }
   .screen-content { min-height: 210px; padding: 25px; }
   .message-card { width: 238px; right: 6px; bottom: 25px; padding: 12px; }
